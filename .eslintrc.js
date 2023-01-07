@@ -18,6 +18,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended', // TypeScript rules
         'prettier/@typescript-eslint', // Prettier plugin
         'plugin:prettier/recommended', // Prettier recommended rules
+        'next',
       ],
       globals: {
         Atomics: 'readonly',
