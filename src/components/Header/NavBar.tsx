@@ -42,11 +42,11 @@ export const NavBar: FunctionComponent<NavBarProps> = ({ isOpen, setIsOpen }) =>
           </div>
           <div>
             <nav className="grid gap-6">
-              <Link href="/">
-                <a onClick={() => setIsOpen(!isOpen)}>Home</a>
+              <Link href="/" onClick={() => setIsOpen(!isOpen)}>
+                Home
               </Link>
-              <Link href="/blog">
-                <a onClick={() => setIsOpen(!isOpen)}>Blog</a>
+              <Link href="/blog" onClick={() => setIsOpen(!isOpen)}>
+                Blog
               </Link>
             </nav>
           </div>

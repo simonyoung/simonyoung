@@ -23,10 +23,11 @@ export const PostContent: FunctionComponent<ContentProps> = ({
             <ReactMarkdown source={preview} />
           </div>
           <p className="mx-auto">
-            <Link href={`/blog/${slug}`}>
-              <a className="text-logo-mid hover:text-logo-dark underline text-xs uppercase font-light tracking-wider md:text-sm">
-                Read more
-              </a>
+            <Link
+              href={`/blog/${slug}`}
+              className="text-logo-mid hover:text-logo-dark underline text-xs uppercase font-light tracking-wider md:text-sm"
+            >
+              Read more
             </Link>
           </p>
         </div>

@@ -4,7 +4,9 @@ import Footer from '@/components/Footer/Footer';
 import Head from 'next/head';
 
 // eslint-disable-next-line @typescript-eslint/ban-types
-type LayoutProps = {};
+type LayoutProps = {
+  children: React.ReactNode;
+};
 
 export const Layout: FunctionComponent<LayoutProps> = ({ children }) => (
   <>
