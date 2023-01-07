@@ -16,7 +16,6 @@ module.exports = {
         'plugin:react/recommended', // React rules
         'plugin:jsx-a11y/recommended', // Accessibility rules
         'plugin:@typescript-eslint/recommended', // TypeScript rules
-        'prettier/@typescript-eslint', // Prettier plugin
         'plugin:prettier/recommended', // Prettier recommended rules
         'next',
       ],
