@@ -17,7 +17,6 @@ module.exports = {
         'plugin:jsx-a11y/recommended', // Accessibility rules
         'plugin:@typescript-eslint/recommended', // TypeScript rules
         'plugin:prettier/recommended', // Prettier recommended rules
-        'next',
       ],
       globals: {
         Atomics: 'readonly',
